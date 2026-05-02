@@ -44,7 +44,7 @@ function render(array, highlight = {}) {
     const bar = document.createElement("div");
     bar.classList.add("bar");
     bar.style.height = value + "px";
-
+    bar.innerText = value;
     if (highlight.compare?.includes(index)) {
       bar.classList.add("compare");
     }
