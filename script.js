@@ -15,17 +15,10 @@ body {
 }
 
 .bar {
-  width: 25px;
+  width: 20px;
   background: linear-gradient(to top, #06b6d4, #3b82f6);
   border-radius: 6px;
   transition: all 0.4s ease;
-
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
 }
 
 /* comparing */
@@ -46,3 +39,5 @@ body {
   background: #22c55e;
   box-shadow: 0 0 15px #22c55e;
 }
+
+
